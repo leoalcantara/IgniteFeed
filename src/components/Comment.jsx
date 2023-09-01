@@ -13,16 +13,21 @@ export function Comment(){
                             <time title='24 de agosto as 18:45' dateTime='24/08/2023 18:45:15'>Cerca de 1h atrás</time>
                         </div>
                         <button title='Deletar Comentário'>
-                            <Trash size={20}/>
+                            <Trash size={24}/>
                         </button>
                     </header>
                     <p>Muito bom Devon, parabéns!! 👏👏</p>
                 </div>
+                <footer>
+                    <button>
+                        <ThumbsUp />
+                        Aplaudir 
+                        <span>20</span>
+                    </button>
+                    
+                </footer>
             </div>
-            <footer>
-                <ThumbsUp />
-                Aplaudir <span>20</span>
-            </footer>
+           
         </div>
     )
 }
